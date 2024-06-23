@@ -1,7 +1,7 @@
-import { Router } from 'express';
-import { testController } from '../controllers/test';
+import { Router } from "express";
+import { testController } from "../controllers/test.js";
 const router = Router();
 
-router.get('/test', testController.test);
+router.get("/test", testController.test);
 
 export default router;
